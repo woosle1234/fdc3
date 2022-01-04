@@ -12,6 +12,8 @@ function Project() {
         document.getElementById("image").src=URL.createObjectURL(e.target.files[0]);
     }
 
+    //will create a cookie to store some project info in order to display it later
+
     function createProject(e){
         e.preventDefault();
         console.log(e.target.ProjectName.value)

@@ -6,6 +6,7 @@ function Dashboard() {
     const [ProjectName, SetProjectName] = useState(null);
     const [ImageSrc, SetImageSrc] = useState(null);
 
+    //Basically just checks cookies to display project information for demenstration
     useEffect(() => {
         let cookies = document.cookie.split("; ");
         let projName = "";
