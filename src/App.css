@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: lightgreen;
 }
 
 .App-logo {
@@ -35,4 +36,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.tab{
+  color: darkgreen;
+  border-style: solid;
+  border-width: 1px;
+  margin: 1px;
 }
